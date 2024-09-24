@@ -1,0 +1,124 @@
+/* Основні стилі для сайту MyNailWork */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eca7d8;
+    color: #333;
+}
+
+header {
+    background-color: #ffcccc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.services, .gallery, .reviews, .contact {
+    padding: 50px 20px;
+}
+
+.services h2, .gallery h2, .reviews h2, .contact h2 {
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-item {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-gallery img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.review-list {
+    text-align: center;
+}
+
+.review-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcccc;
+}
+
+a {
+    background-color: #a8548c; /* Основний зелений колір */
+    color: white; /* Колір тексту */
+    border: none; /* Без рамки */
+    padding: 15px 30px; /* Внутрішні відступи */
+    font-size: 18px; /* Розмір шрифту */
+    font-family: 'Arial', sans-serif; /* Шрифт */
+    font-weight: bold; /* Жирність тексту */
+    text-transform: uppercase; /* Всі літери великі */
+    border-radius: 30px; /* Заокруглені кути */
+    cursor: pointer; /* Вказівник на кнопку */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Тінь під кнопкою */
+    transition: all 0.3s ease; /* Плавний перехід для всіх властивостей */
+}
+
+.booking-button:hover {
+    background-color: #218838; /* Темніший зелений при наведенні */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Більша тінь при наведенні */
+    transform: translateY(-3px); /* Підйом кнопки */
+}
+
+.booking-button:active {
+    transform: translateY(2px); /* Легке натискання кнопки */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Тінь при натисканні */
+}
